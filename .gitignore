@@ -1,0 +1,12 @@
+# ignoră node_modules din orice subfolder
+**/node_modules/
+
+# alte lucruri inutile pentru git
+dist/
+build/
+.DS_Store
+.env
+npm-debug.log*
+yarn-error.log*
+coverage/
+.vscode/
